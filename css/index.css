@@ -6,7 +6,7 @@ body {
 .backgroundCenter {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(168, 232, 252);
+    background-color: #c4dafa;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,17 +16,25 @@ body {
 .catdWeather {
     width: 414px;
     height: 151px;
-    background-color: #00D2FF;
-    background: linear-gradient(#00D2FF, #3A7BD5);
+    background-color: #005187;
+    background: linear-gradient(#005187, #84b6fa);
     border-radius: 10px;
 }
 
 .bigSun {
-    left: 270px;
+    left: 260px;
     position: relative;
 }
 
 .sun {
     position:relative;
-    left: 180px;
+    left: -170px;
+}
+.btnBuscar {
+    background-color: #fcffff;
+    border-radius: 4px;
+}
+.searchCity{
+    background-color: #fcffff;
+    border-radius: 4px;
 }
